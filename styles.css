@@ -1,0 +1,59 @@
+
+a:link    { color: blue;  }/*a:link: This is the normal state of a text link.*/
+
+a:visited { color: red;   }/*a:visited: This is the state of a text link that has been visited already by the current web browser.*/
+a:hover   { color: green; }/*a:hover: This creates the roll-over state for when the user's mouse rolls over (aka hovers over) a link.*/
+a:active  { color: pink;  }/*a:active: This affects the state of the link while the user is actively clicking on it.*/
+
+.text-centered {
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+
+}
+
+.dark-background {
+  background-color: #1E1E1E;
+  color: white;
+}
+
+.light-background {
+  background-color:blanchedalmond;
+  color:black;
+}
+hr {
+  width: 420px;/* graphic hrizontal line*/
+  height: 32px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-image: url("images/divider.png");
+}
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  width: 70%;
+}
+
+h1{
+  font-size: 40px;
+  font-family: cursive; 
+}
+
+h3{
+  font-size: 30px;
+  font-family: all;
+}
+
+.p{
+
+  font-size: 30px;
+}
+
